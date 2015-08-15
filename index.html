@@ -1,0 +1,1092 @@
+<!--Matthew Anthony Antonuccio-->
+<!--Student ID: 212163434-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Mum's Spaghetti
+	</title>
+	<link rel="stylesheet" href="themes/restaurant.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+	<!--CSS Styling for the webpage-->
+	<style>
+	div#head {
+		background-image: url("images/background.jpg");
+	}
+	
+	td {
+		border-style: hidden;
+		padding: 5px .5em 5px .4em;
+	}
+	
+	h1.heading_text {
+		font-style: italic;
+		text-align:center;
+	}
+	
+	tr.imglabel {
+		font-style: italic;
+		font-size: 120%;
+		text-align:center;
+	}
+	
+	tr.center {
+		text-align:center;
+	}
+	
+	h1.heading {
+		color: white;
+		font-size: 200%;
+	}
+	
+	h1.page {
+		color: white;
+		font-style: italic;
+	}
+	
+	table.gallary {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%
+	}
+	
+	p.menu_type {
+		font-weight: bold;
+		font-style: italic;
+		font-size: 150%;
+	}
+	
+	p.item_details {
+		margin-top:0;
+		margin-bottom:0
+	}
+	
+	p.item_name {
+		font-weight: bold;
+		font-style: italic;
+		margin-top:0;
+		margin-bottom:0
+	}
+	
+	table.menu {
+		width: 100%;
+	}
+	
+	td.menu_list {
+		vertical-align: top;
+		text-align: left;
+		width: 25%;
+	}
+	
+	a.center {
+		text-align: center;
+	}
+	
+	td.img_cen {
+		text-align: center;
+	}
+</style>
+<!--End of CSS Styling-->
+	
+</head>
+
+<body>
+
+
+
+
+
+
+<!--Home Page-->
+<div id="home" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<h1 class="heading_text">Welcome to Mum's Spaghetti</h1>
+		
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					Mum's Spaghetti is a small restaurant that was established in the late 90's. We pride ourselves on authentic Italian food and great service. 
+					We offer a variety of meals and drinks for everyone to enjoy, so bring your family and find yourselves immersed in a small quaint Italian setting as you
+					sit down for a perfect meal.
+					<p>
+					Reservations can be made by phone as well as email. Further contact details can be found in the contact tab.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/restaurant.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+<!--Menu Page-->
+<div id="menu" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<h1 class="heading_text">Check out a range of items from our menu</h1>
+		<table class="menu">
+			<tr>
+			
+				<td class="menu_list">
+					<!--Entree Menu-->
+					<p class="menu_type">Entree</p>
+		
+					<p class="item_name">Bruschetta - $6.00</p>
+					<p class="item_details">Fresh tomatoes with basil, red onion, pesto and goats cheese on lightly toasted sourdough</p>
+						<br>
+					<p class="item_name">Garlic / Herb Bread - $5.00</p>
+					<p class="item_details">Your choice of either garlic or herb topped sourdough</p>
+						<br>
+					<p class="item_name">Trio of Dips - $10.00</p>
+					<p class="item_details">Served with chargrilled sourdough</p>
+						<br>
+					<p class="item_name">Handcut Fries - $8.50</p>
+					<p class="item_details">Served with homemade tomato and aioli sauce</p>
+						<br>
+					<p class="item_name">Soup of the Day - $10.00</p>
+					<p class="item_details">Served with turkish bread</p>
+						<br>
+					<p class="item_name">Arancini - $10.50</p>
+					<p class="item_details">Deep fried rice balls filled with a bolognese and boconcini filling</p>
+				</td>
+				
+				<td class="menu_list">
+					<!--Pasta Menu-->
+					<p class="menu_type">Pasta Dishes</p>
+					
+					<p class="item_name">Napoli - $18.00</p>
+					<p class="item_details">A rich tomato sauce served with basil</p>
+						<br>
+					<p class="item_name">Cream Sauce - $20.00</p>
+					<p class="item_details">A cream sauce served with mushroom and bacon</p>
+						<br>
+					<p class="item_name">Carbonara - $19.50</p>
+					<p class="item_details">A cream and egg sauce served with bacon and onion</p>
+						<br>
+					<p class="item_name">Amatriciana - $22.50</p>
+					<p class="item_details">A rich napoli sauce with hot chilli, prosciutto and onion</p>
+						<br>
+					<p class="item_name">Vegetarian - $20.00</p>
+					<p class="item_details">Roasted vegies, sundried tomatoes and garlic served in an oil sauce</p>
+						<br>
+					<p class="item_name">Garlic Butter - $19.00</p>
+					<p class="item_details">Thick butter sauce served with asparagas and peas</p>
+						<br>
+					<p class="item_name">Marinara - $27.50</p>
+					<p class="item_details">Fresh seafood with a chilli and garlic white wine sauce</p>
+						<br>
+					<p class="item_name">Meatballs - $20.00</p>
+					<p class="item_details">Homemade napoli sauce, served with 3 large meatballs</p>
+						<br>
+					<p class="item_details">All meals come with a choice of Spaghetti, Penne, Ravioli, Gnocchi, Linguine or Farfalle pasta</p>
+				</td>
+				
+				<td class="menu_list">
+					<!--Main's Menu-->
+					<p class="menu_type">Mains</p>
+					
+					<p class="item_name">Chicken Fillet - $29.00</p>
+					<p class="item_details">Chicken fillet stuffed with spinach, pesto, roasted capsicum and mozzarella, served with roasted vegies and homemade gravy</p>
+						<br>
+					<p class="item_name">Chicken Parmegiana - $22.00</p>
+					<p class="item_details">Pan fried chicken fillet topped with tomato ham and mozzarella served with handcut fries</p>
+						<br>
+					<p class="item_name">Fish and Chips - $26.00</p>
+					<p class="item_details">Your choice of battered Flake or Barramundi served with handcut fries, salad and aioli sauce</p>
+						<br>
+					<p class="item_name">Garlic Prawns - $30.00</p>
+					<p class="item_details">Tiger King Prawns served with a garlic and white wine sauce</p>
+						<br>
+					<p class="item_name">Rib Eye Steak - $35.00</p>
+					<p class="item_details">Served on lightly toasted sourdough with garden salad and handcut chips</p>
+				</td>
+			
+				<td class="menu_list">
+					<!--Pizza Menu-->
+					<p class="menu_type">Woodfire Pizzas</p>
+					
+					<p class="item_name">MARGHERITA - $11.00</p>
+					<p class="item_details">Tomato, Basil, Herbs and Mozzarella</p>
+						<br>
+					<p class="item_name">HAWAIIAN - $12.50</p>
+					<p class="item_details">Tomato, Ham, Pineapple and Mozzarella</p>
+						<br>
+					<p class="item_name">CAPRICIOSA - $12.50</p>
+					<p class="item_details">Tomato, Ham, Olives, Mushrooms, Anchovies and Mozzarella</p>
+						<br>
+					<p class="item_name">CALABRESE - $12.50</p>
+					<p class="item_details">Tomato, Hot Salami, Olives and Mozzarella</p>
+						<br>
+					<p class="item_name">VEGETARIAN - $14.50</p>
+					<p class="item_details">Tomato, Capsicum, Zucchini, Pumpkin, Potato and Mozzarella</p>
+						<br>
+					<p class="item_name">BBQ CHICKEN - $15.00</p>
+					<p class="item_details">Roasted Chicken, Pineapple, BBQ Sauce, Onion and Mozzarella</p>
+						<br>
+					<p class="item_name">THE LOT - $19.00</p>
+					<p class="item_details">Tomato, Herbs, Ham, Pineapple, Olive, Onion, Capsicum, Salami, Zucchini, Chicken and Mozzarella</p>
+				</td>
+			</tr>
+		</table>
+				
+		
+	
+		
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+<!--Gallary Page-->
+<div id="gallary" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>	
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<h1 class="heading_text">
+		Click on any meal to get more information
+		</h1>
+
+		<!--Table of images-->
+		<table class="gallary">
+			<!--Row 1 of images-->
+			<tr class="center">
+				<td><a href="#spag_napoli"><img src="images/s_napoli.jpg"></a></td>
+				<td><a href="#ric_rav"><img src="images/r_ravioli.jpg"></a></td>
+				<td><a href="#pizza_rec"><img src="images/pizzas.jpg"></a></td>
+			</tr>
+			
+			<!--Names for images on row 1-->
+			<tr class="imglabel">
+				<td>Spaghetti Napoli</td>
+				<td>Ricotta Ravioli</td>
+				<td>Pizzas</td>
+			</tr>
+			
+			<!--Spacer for images-->
+			<tr height="30">
+			</tr>
+			
+			<!--Row 2 of images-->
+			<tr class="center">
+				<td><a href="#spag_carb"><img src="images/s_carb.jpg"></a></td>
+				<td><a href="#lin_ama"><img src="images/l_ama.jpg"></a></td>
+				<td><a href="#pen_oil"><img src="images/p_oil_veg.jpg"></a></td>
+			</tr>
+			
+			<!--Names for images on row 2-->
+			<tr class="imglabel">
+				<td>Spaghetti Carbonara</td>
+				<td>Linguine Amatriciana</td>
+				<td>Penne Vegetarian</td>
+			</tr>
+			
+			<!--Spacer for images-->
+			<tr height="30">
+			</tr>
+			
+			<!--Row 3 of images-->
+			<tr class="center">
+				<td><a href="#far_alf"><img src="images/f_butter.jpg"></a></td>
+				<td><a href="#spag_mar"><img src="images/s_marinara.jpg"></a></td>
+				<td><a href="#spag_meat"><img src="images/s_meatballs.jpg"></a></td>
+			</tr>
+
+			<!--Names for images on row 3-->
+			<tr class="imglabel">
+				<td>Garlic Butter Farfalle</td>
+				<td>Spaghetti Marinara</td>
+				<td>Spaghetti and Meatballs</td>
+			</tr>
+			
+		</table>	
+
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+<!--Contact Us Page-->
+<div id="contact"" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div id="main-area" data-role="main" class="ui-content">
+		<!--Contact Details-->
+		<h1 class="heading_text">Our contact details are listed below</h1>
+		
+		<div data-role="collapsible">
+			<h1>Phone</h1>
+			<a href="tel:123456789">Call Us On 123456789</a>
+		</div>
+		
+		<div data-role="collapsible">
+			<h1>Address</h1>
+			<a href="http://maps.google.com/?q=1200 221 Burwood Highway. Burwood. Victoria 3125">221 Burwood Highway. Burwood. Victoria 3125</a>
+		</div>
+		
+		<div data-role="collapsible">
+			<h1>Email</h1>
+			<a href="mailto:admin@restaurant.com.au">Email Us With Any Questions</a>
+		</div>
+	</div>
+	
+
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+<!--Feedback Page-->
+<div id="feedback" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Feedback Form-->
+		<h1 class="heading_text">Leave some feedback about our restaurant and staff</h1>
+		
+		<form>
+			<label for="firstname">First Name</label>
+			<input type="text" id="first" name="firstname">
+				<br>
+				
+			<label for="lastname">Last Name</label>
+			<input type="text" id="second" name="lastname">
+				<br>
+				
+			<label for="phone">Phone Number</label>
+			<input type="text" id="phone" name="phone">
+				<br>
+			
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email">
+				<br>
+				
+			<label for="comments">How was your experience at Mum's Spaghetti?</label>
+			<textarea name="comments" id="comments"></textarea>
+				<br>
+			
+			<label for="rate">Rate your experience out of 10</label>
+			<input type="range" name="rate" id="rate" min="0" max="10" />
+				<br>
+				
+			<input type="submit" name="submit" id="submit" value="Submit" />
+		</form>
+	
+	</div>
+
+	<div id="foot" data-role="header">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+<!--Dev Page-->
+<div id="dev" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Developer Details-->
+		<h1 class="heading_text">Developers Details</h1>
+		
+		Developer: Matthew Antonuccio of Deakin University
+			<p>
+		Website: <a href="http://www.deakin.edu.au">http://www.deakin.edu.au</a>
+			<p>
+		Email: <a href="mailto:maantonu@deakin.edu.au">maantonu@deakin.edu.au</a>
+			<p>
+		Student at Deakin University Burwood
+			<p>
+		Student ID: 212163435
+			<p>
+		
+		
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Item Recipe Pages-->
+
+
+<!--Spag Napoli Page-->
+<div id="spag_napoli" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Spaghetti Napoli</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					This dish is made from a rich tomato sauce mixed with basil and herbs.
+					<p>
+					Ingredients include: Tomatoes, Onion, Garlic, Basil, Salt + Pepper and other assorted herbs.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/s_napoli.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--Ricotta Ravioli Page-->
+<div id="ric_rav" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Ricotta Ravioli</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					This dish is made from ricotta stuffed ravioli with a rich cream cheese sauce.
+					<p>
+					Ingredients include: Cream, Milk, Parmesan, Romano, Garlic, Bacon, Basil, Spring Onions, Chives, Nutmeg and Pepper.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/r_ravioli.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--Pizza Page-->
+<div id="pizza_rec" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Pizzas</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					All our woodfire pizzas are made using fresh dough and ingredients
+					<p>
+					We have a set menu with a range of different pizzas, however you may choose to make your own from the following ingredients: 
+					Tomato, Ham, Pineapple, Olive, Onion, Capsicum, Salami(Mild or Hot), Zucchini, Chicken, BBQ Sauce and Mozzarella.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/pizzas.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--Spag Carbonara Page-->
+<div id="spag_carb" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Spaghetti Carbonara</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					This dish is made from a rich cream and egg sauce topped with bacon and cheese.
+					<p>
+					Ingredients include: Bacon, Garlic, Eggs, Cream, Parmesan and parsley.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/s_carb.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--Linguine Amatriciana Page-->
+<div id="lin_ama" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Linguine Amatriciana</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					This dish is made from a rich napoli sauce with added spice.
+					<p>
+					Ingredients include: Tomatoes, Onion, Garlic, Parsley, Prosciutto, Red Chilli.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/l_ama.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--Penne Vegie Page-->
+<div id="pen_oil" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Penne Vegetarian</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					This dish is made with oven roasted vegies coated in an oil sauce.
+					<p>
+					Ingredients include: Sundried Tomatoes, Spring Onions, Roasted Vegies and Garlic served in an oil sauce.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/p_oil_veg.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--Farfalle Butter Page-->
+<div id="far_alf" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Garlic Butter Farfalle</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					This dish is made from a thin garlic and butter sauce.
+					<p>
+					Ingredients include: Garlic, Butter, Basil, Oregano Asparagas and Peas.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/f_butter.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--Spag Marinara Page-->
+<div id="spag_mar" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Spaghetti Marinara</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					This dish is made from fresh seafood with a chilli and garlic white wine sauce.
+					<p>
+					Ingredients include: Fresh Seafood, Parsley, Red Chilli, Garlic, Oil and White Wine.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/s_marinara.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--Spag Meatballs Page-->
+<div id="spag_meat" data-role="page">
+
+	<div id="head" data-role="header">
+		<h1></h1>
+		
+		<!--Navigation Bar-->
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#menu" data-icon="bullets">Menu</a></li>
+				<li><a href="#gallary" data-icon="grid">Item Recipe's</a></li>
+				<li><a href="#contact" data-icon="phone">Contact</a></li>
+				<li><a href="#feedback" data-icon="comment">Feedback</a></li>
+			</ul>
+		</div>
+		
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<!--Item Name-->
+		<h1 class="heading_text">Spaghetti and Meatballs</h1>
+		<table class="gallary">
+			<tr>
+				<td width="50%">
+					<!--Item Recipe-->
+					This dish is made from a rich napoli sauce mixed with basil and herbs, served with 3 large meatballs.
+					<p>
+					Ingredients include: Tomatoes, Beef Meatballs, onion, garlic, basil, salt + pepper and other assorted herbs.
+				</td>
+				
+				<td class="img_cen" width="50%">
+					<!--Item Image-->
+					<img src="images/s_meatballs.jpg">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="foot" data-role="footer">
+		<div data-role="navbar">
+			<ul>
+				<!--Link to Developers Imformation-->
+				<li><a href="#dev">Developed by Matthew Antonuccio - Student ID: 212163435</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+
+</body>
+</html>
